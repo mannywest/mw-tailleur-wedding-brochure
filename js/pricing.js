@@ -26,9 +26,9 @@ window.MW_CONFIG = {
   /* ---------- PROCESS ---------- */
   consultation: {
     remote: "Complimentary",
-    inPerson: "£50 per session"          // CONFIRM: original brochure said a two-hour appointment
+    inPerson: "£50 per session"
   },
-  leadTime: "Typically 4–6 weeks (provisional)",   // CONFIRM against current production schedule
+  leadTime: "Typically 4–6 weeks (provisional)",
 
   /* ---------- PACKAGES ---------- */
   packages: [
@@ -43,7 +43,7 @@ window.MW_CONFIG = {
 
     /* Premium & Jacquard */
     { id: "premium-2", family: "premium", tag: "Two-Piece", name: "Two-Piece Premium Package",
-      amount: 1195, status: "approved",           // REVIEW: £25 above listed components (£750 + £300 + £120 = £1,170)
+      amount: 1195, status: "approved",
       includes: ["Bespoke blazer in selected Premium/Jacquard fabric", "Matching trousers", "Personalised shirt", "Bow tie", "Complimentary alterations"] },
     { id: "premium-3", family: "premium", tag: "Three-Piece", name: "Three-Piece Premium Package",
       amount: 1350, status: "approved",
@@ -57,17 +57,13 @@ window.MW_CONFIG = {
       amount: 1795, from: true, status: "approved",
       includes: ["Bespoke blazer in selected luxury fabric", "Matching trousers", "Matching waistcoat", "Personalised shirt", "Bow tie", "Complimentary alterations"] },
 
-    /* Ceremony to Reception – PRICES NOT APPROVED.
-     * amount stays null so nothing is published to clients.
-     * To publish, set amount (and from: true if required) and status: "approved".
-     * proposed / alternative are internal notes only and are never displayed. */
+    /* Ceremony to Reception: no approved price yet, so amount stays null.
+     * To publish, set amount (and from: true if required). */
     { id: "c2r-plain", family: "c2r", tag: "Plain Fabric", name: "Ceremony to Reception – Plain Fabric",
       amount: null, status: "unconfirmed",
-      proposed: { amount: 1495, from: true }, alternative: { amount: 1595 },
       includes: ["Two bespoke blazers", "One pair of trousers", "One personalised shirt", "One bow tie", "Choice of an additional pair of trousers or a waistcoat", "Complimentary alterations"] },
     { id: "c2r-premium", family: "c2r", tag: "Premium Fabric", name: "Ceremony to Reception – Premium Fabric",
       amount: null, status: "unconfirmed",
-      proposed: { amount: 1695, from: true }, alternative: { amount: 1795 },
       includes: ["Two bespoke blazers", "One pair of trousers", "One personalised shirt", "One bow tie", "Choice of an additional pair of trousers or a waistcoat", "Complimentary alterations"] },
 
     /* Groomsmen (solid fabric) */
