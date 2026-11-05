@@ -83,7 +83,7 @@ window.MW_CONFIG = {
       includes: ["Two bespoke blazers", "Two pairs of trousers", "Two waistcoats", "Two personalised shirts", "Two bow ties", "Complimentary alterations"] }
   ],
 
-  /* ---------- INDIVIDUAL GARMENTS (proposed retail – CONFIRM before publishing) ---------- */
+  /* ---------- INDIVIDUAL GARMENTS ---------- */
   garments: {
     rows: [
       { id: "jacket", label: "Jacket / Blazer" },
@@ -105,7 +105,7 @@ window.MW_CONFIG = {
   mills: ["Loro Piana", "Scabal", "Vitale Barberis Canonico", "Drago", "Zegna", "Holland & Sherry",
           "Huddersfield", "Caccioppoli", "Marzoni", "Dino", "Barrington"],
 
-  /* ---------- TERMS (from previous brochure – CONFIRM before publishing) ---------- */
+  /* ---------- TERMS ---------- */
   terms: [
     "Complimentary alterations cover circumference adjustments.",
     "Length alterations are not included in the complimentary alterations.",
